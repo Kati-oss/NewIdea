@@ -3,24 +3,19 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
+        int eaters = 5; // сколько людей будут есть
 
-            int eaters = 5; // сколько людей будут есть
+        int water = 3000; // миллилитров воды
+        int potatoes = 5; // картофелин
+        int chicken = 6; // куриных бёдер
+        int spices = 10; // ложек специй
 
-            int water = 3000; // миллилитров воды
-            int potatoes = 5; // картофелин
-            int chicken = 6; // куриных бёдер
-            int spices = 10; // ложек специй
-            
-            System.out.println("Сварили суп. На одного человека вышло:");
-            System.out.println((water / eaters) + " миллилитров(а) воды");
-            System.out.println((potatoes / eaters) + " картофелин(а/ы)");
-            System.out.println((chicken / eaters) + " куриных(ое) бёдер(ро)");
-            System.out.println((spices / eaters) + " ложек(ки/ка) специй");
+        System.out.println("Сварили суп. На одного человека вышло:");
+        System.out.println((3000 / 5) + " миллилитров(а) воды");
+        System.out.println((5 / 5) + " картофелин(а/ы)");
+        System.out.println((6 / 5) + " куриных(ое) бёдер(ро)");
+        System.out.println((10 / 5) + " ложек(ки/ка) специй");
 
-            System.out.println("i = " + i);
         }
     }
-}
